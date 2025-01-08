@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore")
 st.set_page_config(page_title="All About Bukowski", page_icon="", layout="wide")
 
 with st.sidebar :
-    # st.image('images/White_AI Republic.png')
+    st.image('https://godine.com/cdn/shop/files/9781574232417_FC.jpg?v=1714163408&width=600')
     openai.api_key = st.text_input('Enter OpenAI API token:', type='password')
     if not (openai.api_key.startswith('sk-') and len(openai.api_key)==164):
         st.warning('Please enter your OpenAI API token!', icon='⚠️')
