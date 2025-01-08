@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore")
 
 st.set_page_config(page_title="All About Bukowski", page_icon="", layout="wide")
 
-st.image('https://sevencircumstances.com/wp-content/uploads/2018/01/charles-bukowski-novels.jpg')
+#st.image('https://sevencircumstances.com/wp-content/uploads/2018/01/charles-bukowski-novels.jpg')
 
 with st.sidebar :
     st.image('https://upload.wikimedia.org/wikipedia/commons/f/f7/Bukowski-by-origa.jpg')
@@ -57,7 +57,7 @@ if 'chat_session' not in st.session_state:
 
 # Options : Home
 if options == "Home" :
-
+   st.image('https://sevencircumstances.com/wp-content/uploads/2018/01/charles-bukowski-novels.jpg')
    st.title("Dive into the World of Charles Bukowski")
    st.write("Welcome! This space is dedicated to unraveling every fact about Charles Bukowski. Discover his life, his works, his influences, and the legacy of one of literature’s rawest voices. Let’s explore the man behind the words and his unfiltered truths.")
    
