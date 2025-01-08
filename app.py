@@ -64,7 +64,7 @@ if options == "Home" :
 elif options == "About Us" :
      st.title("About Us")
      st.write("## Robby Jean Pombo")
-     st.image('https://www.artguru.ai/_next/image/?url=https%3A%2F%2Fimg.pica-ai.com%2Fimage%2Faigc%2Falg%2526pic-gen%2526p%2526cd98e19b462f1e6c76ecab0214d51840_768_768.webp&w=640&q=75')
+     #st.image('https://www.artguru.ai/_next/image/?url=https%3A%2F%2Fimg.pica-ai.com%2Fimage%2Faigc%2Falg%2526pic-gen%2526p%2526cd98e19b462f1e6c76ecab0214d51840_768_768.webp&w=640&q=75')
      st.write("## AI Engineer at Accenture Philippines")
      st.text("### Connect with me via Linkedin : https://www.linkedin.com/in/robbyjeanpombo/")
      st.text("### Github : https://github.com/robby1421/")
