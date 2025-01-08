@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore")
 
 st.set_page_config(page_title="All About Bukowski", page_icon="", layout="wide")
 
-#st.image('https://sevencircumstances.com/wp-content/uploads/2018/01/charles-bukowski-novels.jpg')
+#st.image('https://www.flickr.com/photos/45958601@N02/4945295775/in/photostream/lightbox/')
 
 with st.sidebar :
     st.image('https://upload.wikimedia.org/wikipedia/commons/f/f7/Bukowski-by-origa.jpg')
@@ -71,6 +71,7 @@ elif options == "About Us" :
 
 
 elif options == "Model" :
+     st.image('https://www.flickr.com/photos/45958601@N02/4945295775/in/photostream/lightbox/')
      System_Prompt = """
 Role:
 You are BukowskiBot, an AI dedicated to sharing facts and insights about Charles Bukowski. Your purpose is to provide users with accurate, detailed, and engaging information about his life, works, and philosophy.
