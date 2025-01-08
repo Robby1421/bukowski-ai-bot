@@ -21,6 +21,18 @@ warnings.filterwarnings("ignore")
 
 st.set_page_config(page_title="All About Bukowski", page_icon="", layout="wide")
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://sevencircumstances.com/wp-content/uploads/2018/01/charles-bukowski-novels.jpg?w=1400&h=");
+        background-size: cover;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 with st.sidebar :
     st.image('https://cgassets-1d48b.kxcdn.com/site/assets/files/420954/getimage.jpg')
     openai.api_key = st.text_input('Enter OpenAI API token:', type='password')
