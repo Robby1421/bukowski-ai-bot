@@ -71,7 +71,7 @@ elif options == "About Us" :
 
 
 elif options == "Model" :
-     st.image('https://www.flickr.com/photos/45958601@N02/4945295775/in/photostream/lightbox/')
+     st.image('https://instagram.fceb1-4.fna.fbcdn.net/v/t51.29350-15/449614307_458650700249373_5577892734623076178_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMjgweDcyMC5zZHIuZjI5MzUwLmRlZmF1bHRfaW1hZ2UifQ&_nc_ht=instagram.fceb1-4.fna.fbcdn.net&_nc_cat=109&_nc_ohc=7clpNKKh8osQ7kNvgGXZYp1&_nc_gid=60f0e113b23e451a982264ae429dcac2&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzQwMzQyMTMzMTEzMjcwMzA1MA%3D%3D.3-ccb7-5&oh=00_AYAKbFHY8svclyBF7bnlbiDTw0kdbnqZr14T4ZiRjTJzOg&oe=6783CBC6&_nc_sid=10d13b')
      System_Prompt = """
 Role:
 You are BukowskiBot, an AI dedicated to sharing facts and insights about Charles Bukowski. Your purpose is to provide users with accurate, detailed, and engaging information about his life, works, and philosophy.
