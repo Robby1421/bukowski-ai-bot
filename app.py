@@ -64,7 +64,7 @@ if options == "Home" :
 elif options == "About Us" :
      st.title("About Us")
      st.write("# Robby Jean Pombo")
-     st.write("AI Engineer at Accenture Philippines")
+     st.write("## AI Engineer at Accenture Philippines")
      st.text("Connect with me via Linkedin : https://www.linkedin.com/in/robbyjeanpombo/")
      st.text("Github : https://github.com/robby1421/")
      st.write("\n")
